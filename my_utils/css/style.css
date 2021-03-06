@@ -1,3 +1,12 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h2.head{
+	color: #3CDBD1;
+}
+
 p.welcome{
 	
 	color:  black;
@@ -9,21 +18,59 @@ p.welcome{
 	padding-top: 
  }
 
- h2.head{
- 	background-color: blue;
+ nav.col{
+ 	color: #926239;
+ 	line-height: 1.6;
+ 	font-size: 17px;
+ 	font-family: arial,sans-serif;
+ }
+
+ p.foot{
+ 	color: #191F33;
+ }
+
+ 
+
+ body{
+ 	font-family: arial, sans-serif;
+ 	font-size: 17px;
+ 	line-height: 1.6;
  }
 
  P.OVER{
  	text-align: center;
+ 	color: #BDBDBD;
  }
 
  a.fix{
  	padding: top;
+ 	color:  #FAF8F8;
  }
 
- a.fin{
+ a.fini{
  	text-decoration: none;
- 	background-color: blue;
- 	color: #fff;
- 	padding: 10px;
+ 	color: #15409C;
+ 	padding: top;
+ 	font-size: 18px;
  }
+
+
+ body.item{
+ 	background:url(../img/image.jpg)100%;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-position: center;
+ 	height: 100vh;
+ 	
+ }
+
+nav.done{
+	color: red;
+}
+body.ima{
+	background:url(../img/img.jpg)100%;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-position: center;
+ 	height: 100vh;
+}
